@@ -1708,7 +1708,38 @@ is 1.</p></li>
           <div class="pytorch-right-menu" id="pytorch-right-menu">
             <div class="pytorch-side-scroll" id="pytorch-side-scroll-right">
               <ul>
-<li><a class="reference internal" href="#">Functional Metrics</a></li>
+<li><a class="reference internal" href="#">Functional Metrics</a><ul>
+<li><a class="reference internal" href="#torcheval.metrics.functional.binary_accuracy"><code class="docutils literal notranslate"><span class="pre">binary_accuracy()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.binary_auroc"><code class="docutils literal notranslate"><span class="pre">binary_auroc()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.binary_binned_precision_recall_curve"><code class="docutils literal notranslate"><span class="pre">binary_binned_precision_recall_curve()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.binary_confusion_matrix"><code class="docutils literal notranslate"><span class="pre">binary_confusion_matrix()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.binary_f1_score"><code class="docutils literal notranslate"><span class="pre">binary_f1_score()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.binary_normalized_entropy"><code class="docutils literal notranslate"><span class="pre">binary_normalized_entropy()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.binary_precision"><code class="docutils literal notranslate"><span class="pre">binary_precision()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.binary_precision_recall_curve"><code class="docutils literal notranslate"><span class="pre">binary_precision_recall_curve()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.binary_recall"><code class="docutils literal notranslate"><span class="pre">binary_recall()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.frequency_at_k"><code class="docutils literal notranslate"><span class="pre">frequency_at_k()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.hit_rate"><code class="docutils literal notranslate"><span class="pre">hit_rate()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.mean"><code class="docutils literal notranslate"><span class="pre">mean()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.mean_squared_error"><code class="docutils literal notranslate"><span class="pre">mean_squared_error()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.multiclass_accuracy"><code class="docutils literal notranslate"><span class="pre">multiclass_accuracy()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.multiclass_auroc"><code class="docutils literal notranslate"><span class="pre">multiclass_auroc()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.multiclass_binned_precision_recall_curve"><code class="docutils literal notranslate"><span class="pre">multiclass_binned_precision_recall_curve()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.multiclass_confusion_matrix"><code class="docutils literal notranslate"><span class="pre">multiclass_confusion_matrix()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.multiclass_f1_score"><code class="docutils literal notranslate"><span class="pre">multiclass_f1_score()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.multiclass_precision"><code class="docutils literal notranslate"><span class="pre">multiclass_precision()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.multiclass_precision_recall_curve"><code class="docutils literal notranslate"><span class="pre">multiclass_precision_recall_curve()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.multiclass_recall"><code class="docutils literal notranslate"><span class="pre">multiclass_recall()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.multilabel_accuracy"><code class="docutils literal notranslate"><span class="pre">multilabel_accuracy()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.num_collisions"><code class="docutils literal notranslate"><span class="pre">num_collisions()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.r2_score"><code class="docutils literal notranslate"><span class="pre">r2_score()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.reciprocal_rank"><code class="docutils literal notranslate"><span class="pre">reciprocal_rank()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.sum"><code class="docutils literal notranslate"><span class="pre">sum()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.throughput"><code class="docutils literal notranslate"><span class="pre">throughput()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.topk_multilabel_accuracy"><code class="docutils literal notranslate"><span class="pre">topk_multilabel_accuracy()</span></code></a></li>
+<li><a class="reference internal" href="#torcheval.metrics.functional.weighted_calibration"><code class="docutils literal notranslate"><span class="pre">weighted_calibration()</span></code></a></li>
+</ul>
+</li>
 </ul>
 
             </div>
@@ -1729,6 +1760,7 @@ is 1.</p></li>
          <script src="_static/underscore.js"></script>
          <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
          <script src="_static/doctools.js"></script>
+         <script src="_static/sphinx_highlight.js"></script>
      
 
   
